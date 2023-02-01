@@ -1,32 +1,33 @@
 {
-  "name": "explorando-costa-rica",
-  "version": "1.0.0",
-  "description": "Pagina para buscar información de lugares para visitar en Costa Rica",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Robercarlo/explorando-costa-rica.git"
-  },
-  "author": "Roberto Melendez",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Robercarlo/explorando-costa-rica/issues"
-  },
-  "homepage": "https://github.com/Robercarlo/explorando-costa-rica#readme",
-  "devDependencies": {
-    "eslint": "^8.30.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^8.5.0",
-    "husky": "^8.0.0",
-    "lint-staged": "^13.1.0",
-    "prettier": "2.8.1"
-  },
-  "lint-staged": {
-    "*.js": "eslint --fix ",
-    "*.{js,css,md,html,json}": "prettier --cache --write"
-  }
+	"name": "explorando-costa-rica",
+	"version": "1.0.0",
+	"description": "Pagina para buscar información de lugares para visitar en Costa Rica",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepare": "husky install",
+		"watch": "sass --watch sass/main.scss css/styles.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Robercarlo/explorando-costa-rica.git"
+	},
+	"author": "Roberto Melendez",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Robercarlo/explorando-costa-rica/issues"
+	},
+	"homepage": "https://github.com/Robercarlo/explorando-costa-rica#readme",
+	"devDependencies": {
+		"eslint": "^8.30.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-prettier": "^8.5.0",
+		"husky": "^8.0.0",
+		"lint-staged": "^13.1.0",
+		"prettier": "2.8.1"
+	},
+	"lint-staged": {
+		"*.js": "eslint --fix ",
+		"*.{js,css,md,html,json}": "prettier --cache --write"
+	}
 }
