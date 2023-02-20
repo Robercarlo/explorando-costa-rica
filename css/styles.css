@@ -108,6 +108,8 @@ input {
 
 html {
 	font-size: 62.5%;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
 }
 
 h1,
@@ -142,6 +144,128 @@ h5 {
 
 h6 {
 	font-size: 1.8rem;
+}
+
+main {
+	max-width: 140rem;
+	margin: 0 auto;
+}
+
+header {
+	margin: 0 auto;
+	background-color: rgb(255, 255, 255);
+	border-bottom: 2px solid rgb(0, 0, 0);
+}
+header .header-top-decoration {
+	background-color: rgb(67, 163, 162);
+	height: 5rem;
+	width: 100%;
+}
+header .header-main-container {
+	height: 10rem;
+	display: flex;
+	justify-content: space-between;
+}
+header .header-main-container__logo {
+	display: flex;
+	padding: 1rem;
+}
+header .header-main-container__logo img {
+	width: 12rem;
+}
+header .header-main-container__menu ul {
+	height: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 17rem;
+}
+header .header-main-container__menu a {
+	font-size: 2.4rem;
+	font-weight: 900;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+header .header-main-container__menu a:hover {
+	text-decoration: underline;
+}
+header .header-main-container__menu .active {
+	text-decoration: underline;
+}
+header .header-main-container__language {
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+	gap: 1rem;
+}
+header .header-main-container__icon {
+	width: 4.2rem;
+	height: 4.2rem;
+	background-image: url('../images/language_icon.svg');
+	background-size: contain;
+}
+
+.btn {
+	padding: 1rem;
+	border: none;
+	border-radius: 1rem;
+	font-family: 'Nunito', sans-serif;
+	font-size: 2rem;
+	font-weight: 900;
+}
+
+.primary-btn {
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+.primary-btn:hover {
+	outline: 0.2rem solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+
+.hero {
+	display: grid;
+	align-content: center;
+	text-align: center;
+	padding: 4rem;
+	border: 2px solid;
+}
+.hero h4 {
+	font-weight: 300;
+}
+.hero .hero__description {
+	font-size: 2rem;
+	margin: 3rem 0;
+	max-width: 70%;
+	place-self: center;
+}
+.hero .hero__cta {
+	width: fit-content;
+	padding: 0.5rem;
+	place-self: center;
+}
+
+.map {
+	display: grid;
+	padding: 4rem;
+	text-align: center;
+}
+.map .map__description {
+	font-size: 2rem;
+	max-width: 60%;
+	place-self: center;
+}
+.map .map__container {
+	width: 100%;
+	height: 50rem;
+	position: relative;
+}
+.map .map__container p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 /*# sourceMappingURL=styles.css.map */

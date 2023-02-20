@@ -1,0 +1,24 @@
+.map{
+    display: grid;
+    padding: 4rem;
+    text-align: center;
+
+    .map__description {
+        font-size: 2rem;
+        max-width: 60%;
+        place-self: center;
+    }
+
+    .map__container{
+        width: 100%;
+        height: 50rem;
+        position: relative;
+
+        p{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
