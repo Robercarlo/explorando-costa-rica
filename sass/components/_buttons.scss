@@ -1,0 +1,21 @@
+@use '../abstracts' as *;
+
+.btn{
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    font-weight: $black-weight;
+}
+
+.primary-btn{
+    background-color: $dark-color;
+    color: $light-color;
+
+    &:hover{
+        outline: 0.2rem solid $dark-color;
+        background-color: $light-color;
+        color: $dark-color;
+    }
+}

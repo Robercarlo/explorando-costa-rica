@@ -1,10 +1,11 @@
 //Main colors
-$color-yellow:    rgb(254, 240, 91);
-$color-orange:    rgb(222, 97, 4 );
-$color-green:     rgb(194, 222, 60);
-$color-turquoise: rgb(67, 163, 162);
-$color-black:     rgb(0, 0, 0);
-$color-white:     rgb(255, 255, 255);
+$primary-color: rgb(67, 163, 162);
+$secondary-color:    rgb(222, 97, 4 );
+$tertiary-color:     rgb(194, 222, 60);
+$quaternary-color:    rgb(254, 240, 91);
+$dark-color:     rgb(0, 0, 0);
+$light-color:     rgb(255, 255, 255);
+$light-bg-color:     rgb(242, 242, 242);
 
 //Weights
 $light-weight:    300;

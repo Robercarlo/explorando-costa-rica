@@ -1,0 +1,24 @@
+.hero{
+    display: grid;
+    align-content: center;
+    text-align: center;
+    padding: 4rem;
+    border: 2px solid;
+
+    h4{
+        font-weight: 300;
+    }
+
+    .hero__description{
+        font-size: 2rem;
+        margin: 3rem 0;
+        max-width: 70%;
+        place-self: center;
+    }
+
+    .hero__cta{
+        width: fit-content;
+        padding: 0.5rem;
+        place-self: center;
+    }
+}
